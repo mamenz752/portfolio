@@ -100,6 +100,9 @@ section {
     padding: 1rem 0 3rem 0;
     padding-left: 6rem;
 }
+.kv .inner {
+    position: relative;
+}
 .kv-en {
     font-family: 'Lexend Zetta', sans-serif;
     font-size: 3rem;
@@ -116,7 +119,16 @@ section {
     font-size: 1.5rem;
     letter-spacing: 0.2em;
 }
-/* TODO: emoji */
+.emoji {
+    position: absolute;
+    top: 1rem;
+    right: 3rem;
+    rotate: 10deg;
+    color: #fff246;
+    font-family: 'Lexend Zetta', sans-serif;
+    font-size: 3rem;
+    letter-spacing: 0.2em;
+}
 
 /* about */
 .about .inner {
@@ -165,9 +177,7 @@ section {
     margin-bottom: 1rem;
     line-height: 1.4;
 }
-
-/* FIXME: btn design */
-/* TODO: btn texture */
+/* TODO: sns-link anime */
 
 /* career */
 .career {
@@ -177,6 +187,7 @@ section {
 .career .inner {
     padding-left: 9rem;
     padding-right: 9rem;
+    position: relative;
 }
 .h-career {
     padding-top: 0;
@@ -184,7 +195,8 @@ section {
     color: #ff009d;
 }
 .license {
-    margin-bottom: 5rem;
+    margin-top: 3rem;
+    margin-bottom: 8rem;
     padding: 3rem 3rem;
     width: 500px;
     background-color: #eeefff;
@@ -203,7 +215,7 @@ section {
 }
 .experience {
     margin-left: auto;
-    margin-bottom: 5rem;
+    margin-bottom: 8rem;
     padding: 3rem 3rem;
     width: 500px;
     background-color: #eeefff;
@@ -229,7 +241,60 @@ section {
 .works p {
     margin: 4em 0;
 }
-/* TODO: design */
+.sq-1 {
+    content: '';
+    position: absolute;
+    top: 3.3rem;
+    right: 13.8rem;
+    width: 70px;
+    height: 70px;
+    background-color: #ff009d;
+}
+.sq-2 {
+    content: '';
+    position: absolute;
+    top: 27rem;
+    left: 13rem;
+    width: 120px;
+    height: 120px;
+    background-color: #fff246;
+}
+.sq-3 {
+    content: '';
+    position: absolute;
+    top: 32rem;
+    left: 9.8rem;
+    width: 70px;
+    height: 70px;
+    background-color: #8DFB21;
+}
+.sq-4 {
+    content: '';
+    position: absolute;
+    top: 54rem;
+    right: 12.3rem;
+    width: 120px;
+    height: 120px;
+    background-color: #ff009d;
+}
+.sq-5 {
+    content: '';
+    position: absolute;
+    top: 59rem;
+    right: 9.8rem;
+    width: 70px;
+    height: 70px;
+    background-color: #fff246;
+}
+.sq-6 {
+    content: '';
+    position: absolute;
+    top: 75.5rem;
+    left: 7rem;
+    width: 70px;
+    height: 70px;
+    background-color: #8DFB21;
+}
 
 /* contact */
 .contact .inner {
@@ -246,6 +311,9 @@ section {
     font-weight: 500;
     letter-spacing: 0.1em;
     line-height: 1.4;
+}
+.space {
+    white-space: pre;
 }
 .contact-btn {
     padding-top: 1.5rem;
