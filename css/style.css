@@ -1,0 +1,281 @@
+@charset "UTF-8";
+
+/*
+    Use Fonts:
+
+    font-family: 'Lexend Zetta', sans-serif;   900
+    font-family: 'M PLUS 1', sans-serif;    @500;700
+    font-family: 'Zen Kaku Gothic New', sans-serif;    500;700
+
+ */
+
+
+/* common */
+body {
+    font-size: 16px;
+    background-color: #eeefff;
+}
+.inner {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+section {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+.section-title {
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: end;
+    gap: 3rem;
+}
+.section-ttl-en {
+    font-family: 'M PLUS 1', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    letter-spacing: 0.2em;
+}
+.section-ttl-jp {
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    letter-spacing: 0.2em;
+}
+.child-title {
+    padding-top: 2rem;
+    display: flex;
+    align-items: end;
+    gap: 2rem;
+}
+.child-ttl-en {
+    font-family: 'M PLUS 1', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    letter-spacing: 0.2em;
+}
+.child-ttl-jp {
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+}
+
+/* header */
+.header {
+    background-color: #000980;
+}
+.header .inner {
+    display: flex;
+    justify-content: space-between;
+}
+.header-logo img {
+    width: 100px;
+}
+.groval-nav {
+    display: flex;
+    align-items: center;
+}
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+}
+.nav-menu li a {
+    font-family: 'M PLUS 1', sans-serif;
+    font-weight: 700;
+    font-size: 1.25rem;
+    letter-spacing: 0.2em;
+    color: #fff;
+}
+/* TODO: a hover animation */
+
+/* kv */
+.kv {
+    background-color: #000980;
+    color: #fff;
+    padding: 1rem 0 3rem 0;
+    padding-left: 6rem;
+}
+.kv-en {
+    font-family: 'Lexend Zetta', sans-serif;
+    font-size: 3rem;
+    letter-spacing: 0.2em;
+    line-height: 1.3;
+}
+.kv-en-ex {
+    color: #fff246;
+}
+.kv-jp {
+    padding: 2rem 0;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    letter-spacing: 0.2em;
+}
+/* TODO: emoji */
+
+/* about */
+.about .inner {
+    padding-left: 9rem;
+    padding-right: 9rem;
+    color: #000980;
+}
+.my-img {
+    margin: 2.5rem 0;
+}
+.my-name {
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    letter-spacing: 0.2em;
+}
+.my-title {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    text-align: center;
+    font-family: 'M PLUS 1', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    letter-spacing: 0.15em;
+}
+.sns-link {
+    margin: 1rem 0;
+    display: flex;
+    justify-content: right;
+    gap: 1.0rem;
+}
+.sns-link li {
+    padding: 1rem;
+    background-color: #555779;
+}
+.sns-link-img {
+    width: 29px;
+}
+
+.description {
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+}
+.description p {
+    margin-bottom: 1rem;
+    line-height: 1.4;
+}
+
+/* FIXME: btn design */
+/* TODO: btn texture */
+
+/* career */
+.career {
+    background-color: #000980;
+    color: #fff;
+}
+.career .inner {
+    padding-left: 9rem;
+    padding-right: 9rem;
+}
+.h-career {
+    padding-top: 0;
+    margin-bottom: 2rem;
+    color: #ff009d;
+}
+.license {
+    margin-bottom: 5rem;
+    padding: 3rem 3rem;
+    width: 500px;
+    background-color: #eeefff;
+    color: #000980;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+    letter-spacing: 0.1em;
+}
+.license ul {
+    margin-left: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    list-style-type: circle;
+}
+.experience {
+    margin-left: auto;
+    margin-bottom: 5rem;
+    padding: 3rem 3rem;
+    width: 500px;
+    background-color: #eeefff;
+    color: #000980;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+    letter-spacing: 0.1em;
+}
+.experience p {
+    margin: 4em 0;
+}
+.works {
+    padding: 3rem 3rem;
+    width: 500px;
+    background-color: #eeefff;
+    color: #000980;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+    letter-spacing: 0.1em;
+}
+.works p {
+    margin: 4em 0;
+}
+/* TODO: design */
+
+/* contact */
+.contact .inner {
+    padding-left: 9rem;
+    padding-right: 9rem;
+    color: #000980;
+}
+.thanks {
+    margin: 3rem 0;
+}
+.thanks p {
+    margin-bottom: 1rem;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    line-height: 1.4;
+}
+.contact-btn {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    width: 100%;
+    background-color: #000980;
+    box-shadow: 0 10px #0a105c;
+    color: #fff;
+    text-align: center;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    letter-spacing: 0.2em;
+}
+.contact-btn:hover {
+    margin-top: 10px;
+    margin-bottom: -10px;
+    box-shadow: none;
+}
+
+/* footer */
+.footer {
+    padding: 1rem 0;
+    background-color: #000980;
+    text-align: center;
+}
+small {
+    color: #fff;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: 500;
+    font-size: 0.75rem;
+    letter-spacing: 0.1em;
+}
