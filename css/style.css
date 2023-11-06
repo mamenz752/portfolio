@@ -84,12 +84,16 @@ section {
     justify-content: center;
     gap: 2.5rem;
 }
-.nav-menu li a {
+.nav-menu li {
     font-family: 'M PLUS 1', sans-serif;
     font-weight: 700;
     font-size: 1.25rem;
     letter-spacing: 0.2em;
     color: #fff;
+    transition: all 0.2s;
+}
+.nav-menu li:hover {
+    transform: scale(1.2);
 }
 /* TODO: a hover animation */
 
@@ -160,10 +164,13 @@ section {
     justify-content: right;
     gap: 1.0rem;
 }
-.sns-link li {
+.sns-link-item {
     padding: 1rem;
     background-color: #555779;
     opacity: 0.8;
+}
+.sns-link-item:hover {
+    opacity: 1.0;
 }
 .sns-link-img {
     width: 29px;
@@ -178,7 +185,6 @@ section {
     margin-bottom: 1rem;
     line-height: 1.4;
 }
-/* TODO: sns-link anime */
 
 /* career */
 .career {
