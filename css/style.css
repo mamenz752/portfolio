@@ -163,6 +163,7 @@ section {
 .sns-link li {
     padding: 1rem;
     background-color: #555779;
+    opacity: 0.8;
 }
 .sns-link-img {
     width: 29px;
