@@ -4,7 +4,10 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        "noto-sans-jp": ["Noto Sans JP", "sans-serif"],
+        "noto-sans": ["Noto Sans JP", "sans-serif"],
+        "zen-kaku": ["Zen Kaku Gothic New", "sans-serif"],
+        "m-plus": ["M PLUS 1", "sans-serif"],
+        lexend: ["Lexend Zetta", "sans-serif"],
       },
       colors: {
         "mamenz-blue": "#000980",
