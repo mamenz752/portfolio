@@ -8,7 +8,7 @@ export const Header = () => {
           <img src="./logo.png" alt="mamenz752のlogo" />
         </div>
       </Link>
-      <ul className="flex gap-6 text-xl tracking-widest text-white">
+      <ul className="flex gap-6 font-m-plus font-medium text-xl tracking-[0.2rem] text-white">
         {/* TODO: liをHeaderLinkコンポーネント化 */}
         <li className="hover:text-mamenz-pink">
           <Link to="/">HOME</Link>
