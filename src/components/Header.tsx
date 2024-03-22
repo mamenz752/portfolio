@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { HeaderLink } from "./header/components/HeaderLink";
 
 export const Header = () => {
   return (
@@ -8,21 +9,7 @@ export const Header = () => {
           <img src="./logo.png" alt="mamenz752のlogo" />
         </div>
       </Link>
-      <ul className="flex gap-6 font-m-plus font-medium text-xl tracking-[0.2rem] text-white">
-        {/* TODO: liをHeaderLinkコンポーネント化 */}
-        <li className="hover:text-mamenz-pink">
-          <Link to="/">HOME</Link>
-        </li>
-        <li className="hover:text-mamenz-pink">
-          <Link to="/about">ABOUT</Link>
-        </li>
-        <li className="hover:text-mamenz-pink">
-          <Link to="/career">CAREER</Link>
-        </li>
-        <li className="hover:text-mamenz-pink">
-          <Link to="/contact">CONTACT</Link>
-        </li>
-      </ul>
+      <HeaderLink />
     </header>
   );
 };
