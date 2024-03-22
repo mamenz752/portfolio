@@ -3,61 +3,50 @@ import { Icon } from "@/components/common/components/Icon";
 
 export const AboutPresenter = () => {
   return (
-    <div className="w-2/3 m-auto flex justify-center items-start flex-col">
+    <div className="w-1/2 mx-auto py-3 flex justify-center items-start flex-col">
       <Headings en="ABOUT ME" ja="私について" size="N" />
-      <div className="section-title">
-        <h1 className="section-ttl-en">ABOUT ME</h1>
-        <h2 className="section-ttl-jp">私について</h2>
-      </div>
-      <div className="my-img">
+      <div className="mx-auto my-6">
         <img src="profile.png" alt="mamenz752のイメージ画像" />
       </div>
-      <h3 className="my-name">サヤ</h3>
-      <p className="my-title">DATA SCIENCE STUDENT</p>
-      <ul className="sns-link">
-        <li className="sns-link-item" id="git-hub">
-          <a
-            href="https://github.com/mamenz752"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Icon type="fa-github" />
-          </a>
-        </li>
-        <li className="sns-link-item" id="instagram">
-          <a
-            href="https://instagram.com/mamenz752"
-            target="_blank"
-            rel="noopener noreferrer"
-          ></a>
-        </li>
-        <li className="sns-link-item" id="x">
-          <a
-            href="https://x.com/mamenz752"
-            target="_blank"
-            rel="noopener noreferrer"
-          ></a>
-        </li>
-      </ul>
-      <div className="description">
-        <p>広島県出身の現役情報系大学3年生。</p>
-        <p>
-          中学生の時にScratchを始めたことがきっかけで、
-          <br />
-          プログラミングの勉強を開始。
+      <div className="my-10">
+        <h1 className="text-4xl font-zen-kaku font-bold tracking-widest text-mamenz-blue">
+          サヤ
+        </h1>
+        <p className="text-2xl font-m-plus font-medium py-2 tracking-widest text-mamenz-blue">
+          WEB DEVELOPER / STUDENT
         </p>
-        <p>
-          大学ではデータサイエンスを専攻しているが、
-          <br />
-          WEBデザインも得意である。
-        </p>
-        <p>最近力を入れていることは、</p>
-        <p>
-          <b>Kaggleのコンぺで入賞するための勉強</b>と<br />
-          <b>AtCoderの茶色コーダーへ昇格するための勉強</b>
-        </p>
-        <p>である。</p>
+        <ul className="sns-link">
+          <li className="sns-link-item" id="git-hub">
+            <a
+              href="https://github.com/mamenz752"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Icon type="fa-github" />
+            </a>
+          </li>
+          <li className="sns-link-item" id="instagram">
+            <a
+              href="https://instagram.com/mamenz752"
+              target="_blank"
+              rel="noopener noreferrer"
+            ></a>
+          </li>
+          <li className="sns-link-item" id="x">
+            <a
+              href="https://x.com/mamenz752"
+              target="_blank"
+              rel="noopener noreferrer"
+            ></a>
+          </li>
+        </ul>
+        <div className="my-4 font-zenkaku tracking-widest text-mamenz-blue">
+          <p>広島県出身の大学3年生。</p>
+          <p>Web開発が楽しくて仕方がない。</p>
+          <p>将来的にはプロダクトを作りたいと考えている。</p>
+        </div>
       </div>
+      <Headings en="OTHER LINKS" ja="その他の関連リンク" size="S" />
       <div className="child-title">
         <h3 className="child-ttl-en">OTHER LINKS</h3>
         <h4 className="child-ttl-jp">その他の関連リンク</h4>
