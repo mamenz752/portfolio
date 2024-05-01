@@ -40,7 +40,7 @@ export const Headings: FC<Props> = ({ en, ja, size, color }) => {
   };
 
   return (
-    <div className="mt-2 mb-8 flex justify-center items-center gap-10 text-mamenz-blue">
+    <div className="mt-2 mb-8 flex items-center gap-10 text-mamenz-blue">
       <h1
         className={`${handleEnSize(size)} font-m-plus font-bold tracking-widest ${handleColor(color)}`}
       >
