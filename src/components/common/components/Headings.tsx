@@ -6,9 +6,10 @@ type Props = {
   en: string;
   ja: string;
   size: Size;
+  color: string;
 };
 
-export const Headings: FC<Props> = ({ en, ja, size }) => {
+export const Headings: FC<Props> = ({ en, ja, size, color }) => {
   const handleEnSize = (size: Size) => {
     if (size === "S") {
       return "text-2xl";
@@ -25,15 +26,28 @@ export const Headings: FC<Props> = ({ en, ja, size }) => {
     }
   };
 
+  const handleColor = (color: string) => {
+    switch (color) {
+      case "white":
+        return "text-white";
+      case "blue":
+        return "text-mamenz-blue";
+      case "pink":
+        return "text-mamenz-pink";
+      default:
+        return "text-mamenz-blue";
+    }
+  };
+
   return (
-    <div className="mt-2 mb-8 flex justify-center items-center gap-10 text-mamenz-blue">
+    <div className="mt-2 mb-8 flex items-center gap-10 text-mamenz-blue">
       <h1
-        className={`${handleEnSize(size)} font-m-plus font-bold tracking-widest`}
+        className={`${handleEnSize(size)} font-m-plus font-bold tracking-widest ${handleColor(color)}`}
       >
         {en}
       </h1>
       <p
-        className={`${handleJaSize(size)} font-zen-kaku font-bold tracking-widest`}
+        className={`${handleJaSize(size)} font-zen-kaku font-bold tracking-widest ${handleColor(color)}`}
       >
         {ja}
       </p>
