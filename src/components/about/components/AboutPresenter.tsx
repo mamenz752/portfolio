@@ -18,10 +18,14 @@ export const AboutPresenter = () => {
         </p>
       </div>
       <AboutLink />
-      <div className="my-8 font-noto-sans font-medium tracking-widest leading-6 text-mamenz-blue">
-        <p>広島県出身の大学3年生。</p>
-        <p>Web開発が楽しくて仕方がない。</p>
-        <p>将来的にはプロダクトを作りたいと考えている。</p>
+      <div className="my-8 font-zen-kaku tracking-widest leading-6 text-mamenz-blue">
+        <p>DS/ML専攻の大学3年生です。</p>
+        <p>Web開発に興味があり、日々勉強しています。</p>
+        <p>主に、フロントエンドの企画・UIデザインから実装が得意です。</p>
+        <p>最近はバックエンドにも興味があります。</p>
+        <p>
+          このポートフォリオサイトもまだまだ進化中ですので、アップデートを楽しみにしていてください！
+        </p>
       </div>
       <Headings en="OTHER LINKS" ja="その他の関連リンク" size="S" color="" />
       <AboutOtherLink />
