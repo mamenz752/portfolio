@@ -1,5 +1,9 @@
 # issue
 
-# description
+# 説明
 
-# next to do
+# 対応
+
+# 動作確認
+
+# チェックするべきポイント
