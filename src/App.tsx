@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { HomePresenter } from "./components/home/components/HomePresenter";
 import { AboutPresenter } from "./components/about/components/AboutPresenter";
 import { CareerPresenter } from "./components/career/components/CareerPresenter";
-import { TechLogPresenter } from "./components/techlog/components/ContactPresenter";
+import { TechLogPresenter } from "./components/techlog/components/TechLogPresenter";
 import { Footer } from "./components/Footer";
 
 function App() {
