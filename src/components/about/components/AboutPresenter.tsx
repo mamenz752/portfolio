@@ -5,7 +5,7 @@ import { AboutOtherLink } from "./AboutOtherLink";
 export const AboutPresenter = () => {
   return (
     <div className="w-1/3 mx-auto my-10 flex justify-center items-start flex-col">
-      <Headings en="ABOUT ME" ja="私について" size="N" />
+      <Headings en="ABOUT ME" ja="私について" size="N" color="" />
       <div className="mx-auto my-4">
         <img src="profile.png" alt="mamenz752のイメージ画像" />
       </div>
@@ -23,7 +23,7 @@ export const AboutPresenter = () => {
         <p>Web開発が楽しくて仕方がない。</p>
         <p>将来的にはプロダクトを作りたいと考えている。</p>
       </div>
-      <Headings en="OTHER LINKS" ja="その他の関連リンク" size="S" />
+      <Headings en="OTHER LINKS" ja="その他の関連リンク" size="S" color="" />
       <AboutOtherLink />
     </div>
   );
