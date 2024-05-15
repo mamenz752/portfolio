@@ -1,12 +1,11 @@
 import { Headings } from "@/components/common/components/Headings";
 import { AboutLink } from "./AboutLink";
-import { AboutOtherLink } from "./AboutOtherLink";
 
 export const AboutPresenter = () => {
   return (
-    <div className="w-1/3 mx-auto my-10 flex justify-center items-start flex-col">
+    <div className="w-1/2 mx-auto my-10 flex justify-center items-start flex-col">
       <Headings en="ABOUT ME" ja="私について" size="N" color="" />
-      <div className="mx-auto my-4">
+      <div className="mx-auto my-8">
         <img src="profile.png" alt="mamenz752のイメージ画像" />
       </div>
       <div className="my-4">
@@ -18,17 +17,31 @@ export const AboutPresenter = () => {
         </p>
       </div>
       <AboutLink />
-      <div className="my-8 font-zen-kaku tracking-widest leading-6 text-mamenz-blue">
-        <p>DS/ML専攻の大学3年生です。</p>
-        <p>Web開発に興味があり、日々勉強しています。</p>
-        <p>主に、フロントエンドの企画・UIデザインから実装が得意です。</p>
-        <p>最近はバックエンドにも興味があります。</p>
-        <p>
-          このポートフォリオサイトもまだまだ進化中ですので、アップデートを楽しみにしていてください！
-        </p>
+      <div className="my-8 text-sm font-noto-sans tracking-widest leading-6 text-mamenz-blue">
+        <div>
+          <p>DS/ML専攻の大学3年生です。</p>
+          <p>Web開発に興味があり、日々勉強しています。</p>
+        </div>
+        <div className="mt-4">
+          <p>得意分野は、企画・UIデザインを含むフロントエンドの実装です。</p>
+          <p>
+            プロダクトを制作する際は、「ユーザーの生活にどれだけプロダクトが浸透するか」を常に意識しています。
+          </p>
+          <p>
+            今は自分の向いている分野を探りつつ、フルスタックに開発できるように勉強を進めています。
+          </p>
+        </div>
+        <div className="mt-4">
+          <p>
+            このポートフォリオサイトも、私が進化し続ける限り常にアップデートされます！
+          </p>
+          <p>楽しみにしていてください！</p>
+        </div>
       </div>
+      {/*
       <Headings en="OTHER LINKS" ja="その他の関連リンク" size="S" color="" />
       <AboutOtherLink />
+      */}
     </div>
   );
 };
