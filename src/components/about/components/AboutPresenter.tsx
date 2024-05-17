@@ -1,5 +1,6 @@
 import { Headings } from "@/components/common/components/Headings";
 import { AboutLink } from "./AboutLink";
+import { AboutSkillsBeingLearned } from "./AboutSkillsBeingLearned";
 
 export const AboutPresenter = () => {
   return (
@@ -38,6 +39,13 @@ export const AboutPresenter = () => {
           <p>楽しみにしていてください！</p>
         </div>
       </div>
+      <Headings
+        en="SKILLS BEING LEARNED"
+        ja="学んでいる技術"
+        size="S"
+        color=""
+      />
+      <AboutSkillsBeingLearned />
       {/*
       <Headings en="OTHER LINKS" ja="その他の関連リンク" size="S" color="" />
       <AboutOtherLink />
