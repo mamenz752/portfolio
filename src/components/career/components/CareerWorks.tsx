@@ -33,7 +33,7 @@ const CareerWorks = () => {
               <img src="/Rhythmate.png" />
             </div>
             <div className="my-4 flex justify-between items-center">
-              <h1 className="text-4xl text-mamenz-blue font-m-plus font-bold">
+              <h1 className="text-4xl text-mamenz-blue font-m-plus font-bold tracking-wider">
                 Rhythmate
               </h1>
               <Link
@@ -41,7 +41,7 @@ const CareerWorks = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <button className="p-2 flex text-white bg-mamenz-pink gap-2">
+                <button className="p-2 flex text-white bg-mamenz-pink gap-2 hover:opacity-90">
                   <svg
                     className="w-6 h-6 text-white"
                     aria-hidden="true"
@@ -65,7 +65,7 @@ const CareerWorks = () => {
                 </button>
               </Link>
             </div>
-            <p className="font-zen-kaku text-mamenz-blue">
+            <p className="font-noto-sans tracking-widest text-mamenz-blue">
               新しい習慣をゲーム感覚で楽しく身に付けられるアプリです。
               毎日続けるとプレイヤーレベルがアップしたり、
               特別なバッチを受け取ることができます。
