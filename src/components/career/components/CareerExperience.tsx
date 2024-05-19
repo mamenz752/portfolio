@@ -18,7 +18,7 @@ const CareerExperience = () => {
                 技育CAMPハッカソン2023 vol.15 参加
               </span>
             </h1>
-            <ul className="ml-8 flex flex-col gap-2 font-normal list-disc">
+            <ul className="ml-8 flex flex-col gap-2 font-normal list-disc font-noto-sans">
               <li>
                 習慣をゲーム感覚で身につけるアプリ「Rhythmate」を制作しました
               </li>
@@ -35,7 +35,7 @@ const CareerExperience = () => {
                 技育博2024 vol.2 参加
               </span>
             </h1>
-            <ul className="ml-8 flex flex-col gap-2 font-normal list-disc">
+            <ul className="ml-8 flex flex-col gap-2 font-normal list-disc font-noto-sans">
               <li>「Rhythmate」を約3ヶ月間継続開発しました</li>
               <li>
                 企業賞として<b>GMOインターネットグループ賞</b>を受賞しました！

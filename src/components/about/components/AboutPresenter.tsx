@@ -1,5 +1,6 @@
 import { Headings } from "@/components/common/components/Headings";
 import { AboutLink } from "./AboutLink";
+import { AboutSkillsBeingLearned } from "./AboutSkillsBeingLearned";
 
 export const AboutPresenter = () => {
   return (
@@ -25,10 +26,10 @@ export const AboutPresenter = () => {
         <div className="mt-4">
           <p>得意分野は、企画・UIデザインを含むフロントエンドの実装です。</p>
           <p>
-            プロダクトを制作する際は、「ユーザーの生活にどれだけプロダクトが浸透するか」を常に意識しています。
+            今は自分の向いている分野を探りつつ、フルスタックに開発できるように勉強を進めています。
           </p>
           <p>
-            今は自分の向いている分野を探りつつ、フルスタックに開発できるように勉強を進めています。
+            プロダクトを制作する際は、ユーザーのニーズに合ったプロダクトが提供できているか、定期的に振り返ることを心がけています。
           </p>
         </div>
         <div className="mt-4">
@@ -38,6 +39,13 @@ export const AboutPresenter = () => {
           <p>楽しみにしていてください！</p>
         </div>
       </div>
+      <Headings
+        en="SKILLS BEING LEARNED"
+        ja="学んでいる技術"
+        size="S"
+        color=""
+      />
+      <AboutSkillsBeingLearned />
       {/*
       <Headings en="OTHER LINKS" ja="その他の関連リンク" size="S" color="" />
       <AboutOtherLink />
