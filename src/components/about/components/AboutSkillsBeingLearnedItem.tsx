@@ -9,7 +9,7 @@ export const AboutSkillsBeingLearnedItem: FC<Props> = ({
   skill,
   description,
 }) => {
-  const [isHidden, setIsHidden] = useState<boolean>(true);
+  const [isHidden, setIsHidden] = useState<boolean>(false);
 
   const handleIsHidden = () => {
     if (isHidden) {
