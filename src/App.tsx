@@ -1,11 +1,11 @@
 import "./App.css";
-import { Header } from "./components/Header";
+import { Header } from "./components/common/Header";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import { HomePresenter } from "./components/home/components/HomePresenter";
-import { AboutPresenter } from "./components/about/components/AboutPresenter";
-import { CareerPresenter } from "./components/career/components/CareerPresenter";
-import { TechLogPresenter } from "./components/techlog/components/TechLogPresenter";
-import { Footer } from "./components/Footer";
+import { HomePresenter } from "./components/home/HomePresenter";
+import { AboutPresenter } from "./components/about/AboutPresenter";
+import { CareerPresenter } from "./components/career/CareerPresenter";
+import { TechLogPresenter } from "./components/techlog/TechLogPresenter";
+import { Footer } from "./components/common/Footer";
 
 function App() {
   return (

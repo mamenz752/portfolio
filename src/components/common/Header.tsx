@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { HeaderLink } from "./header/components/HeaderLink";
+import { HeaderLink } from "./components/HeaderLink";
 
 export const Header = () => {
   return (

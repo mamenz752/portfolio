@@ -1,6 +1,6 @@
 import { Headings } from "@/components/common/components/Headings";
-import { AboutLink } from "./AboutLink";
-import { AboutSkillsBeingLearned } from "./AboutSkillsBeingLearned";
+import { AboutLink } from "./components/AboutLink";
+import { AboutSkillsBeingLearned } from "./components/AboutSkillsBeingLearned";
 
 export const AboutPresenter = () => {
   return (
