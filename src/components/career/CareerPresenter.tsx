@@ -1,6 +1,6 @@
-import { CareerLicense } from "./CareerLicense";
-import CareerExperience from "./CareerExperience";
-import CareerWorks from "./CareerWorks";
+import { CareerLicense } from "./components/CareerLicense";
+import CareerExperience from "./components/CareerExperience";
+import CareerWorks from "./components/CareerWorks";
 import { Headings } from "@/components/common/components/Headings";
 
 export const CareerPresenter = () => {

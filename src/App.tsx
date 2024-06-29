@@ -1,11 +1,11 @@
 import "./App.css";
-import { Header } from "./components/Header";
+import { Header } from "./components/common/Header";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import { HomePresenter } from "./components/home/components/HomePresenter";
-import { AboutPresenter } from "./components/about/components/AboutPresenter";
-import { CareerPresenter } from "./components/career/components/CareerPresenter";
-import { TechLogPresenter } from "./components/techlog/components/TechLogPresenter";
-import { Footer } from "./components/Footer";
+import { HomePresenter } from "./components/home/HomePresenter";
+import { AboutPresenter } from "./components/about/AboutPresenter";
+import { CareerPresenter } from "./components/career/CareerPresenter";
+import { ContactPresenter } from "./components/contact/ContactPresenter";
+import { Footer } from "./components/common/Footer";
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
         <Route path="/" element={<HomePresenter />} />
         <Route path="/about" element={<AboutPresenter />} />
         <Route path="/career" element={<CareerPresenter />} />
-        <Route path="/techlog" element={<TechLogPresenter />} />
+        <Route path="/contact" element={<ContactPresenter />} />
       </Routes>
 
       <Footer />
