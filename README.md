@@ -9,7 +9,7 @@
 
 StorybookやVitestなどを使用し、高品質なUI開発を行えるようにこだわりました。
 
-デプロイ先URL: ![https://mamenz752.com](https://mamenz752.com)
+デプロイ先URL: ![portfolio](https://mamenz752.com)
 
 ## 技術スタック
 
@@ -35,13 +35,13 @@ StorybookやVitestなどを使用し、高品質なUI開発を行えるように
 $ npm i
 ```
 
-1. localhost:5173でサーバーを起動
+2. localhost:5173でサーバーを起動
 
 ```bash
 $ npm run dev
 ```
 
-1. Storybookを起動する
+3. Storybookを起動する
 
 ```bash
 $ npm run storybook
