@@ -9,7 +9,7 @@
 
 StorybookやVitestなどを使用し、高品質なUI開発を行えるようにこだわりました。
 
-**_ デプロイ先URL: [portfolio](https://mamenz752.com) _**
+**_デプロイ先URL: [portfolio](https://mamenz752.com)_**
 
 ## 技術スタック
 
