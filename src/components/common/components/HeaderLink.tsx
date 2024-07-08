@@ -6,7 +6,7 @@ export const HeaderLink = () => {
       <HeaderLinkItem href="/" type="HOME" />
       <HeaderLinkItem href="/about" type="ABOUT" />
       <HeaderLinkItem href="/career" type="CAREER" />
-      <HeaderLinkItem href="/techlog" type="TECHLOG" />
+      <HeaderLinkItem href="/contact" type="CONTACT" />
     </ul>
   );
 };
