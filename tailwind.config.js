@@ -16,6 +16,18 @@ export default {
         "mamenz-pink": "#FF0090",
         "mamenz-bg-gray": "#EEEFFF",
       },
+      keyframes: {
+        "animate-line": {
+          "0%, 100%": {
+            transform: "scale(0, 1)",
+            transformOrigin: "center top",
+          },
+          "50%": { transform: "scale(1, 1)" },
+        },
+      },
+      animation: {
+        "animate-line": "animate-line .3s ease-in-out infinite",
+      },
     },
   },
   plugins: [],
