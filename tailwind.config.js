@@ -18,15 +18,15 @@ export default {
       },
       keyframes: {
         "animate-line": {
-          "0%, 100%": {
+          from: {
             transform: "scale(0, 1)",
             transformOrigin: "center top",
           },
-          "50%": { transform: "scale(1, 1)" },
+          to: { transform: "scale(1, 1)" },
         },
       },
       animation: {
-        "animate-line": "animate-line .3s ease-in-out infinite",
+        "animate-line": "animate-line .5s ease none",
       },
     },
   },
