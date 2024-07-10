@@ -8,7 +8,7 @@ type Props = {
 
 export const HeaderLinkItem: FC<Props> = ({ href, type }) => {
   return (
-    <li className="hover:text-mamenz-pink">
+    <li className="relative after:absolute after:top-1/2 after:left-[-10%] after:hover:w-[120%] after:hover:h-[2px] after:hover:bg-white after:hover:animate-animate-line">
       <Link to={href}>{type}</Link>
     </li>
   );

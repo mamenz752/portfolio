@@ -1,4 +1,4 @@
-import { Icon } from "@/components/common/components/Icon";
+import { ContactIcon } from "@/components/common/components/ContactIcon";
 import { FC } from "react";
 
 type Props = {
@@ -15,7 +15,7 @@ export const AboutLinkItem: FC<Props> = ({ href, type }) => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <Icon type={type} />
+        <ContactIcon type={type} />
       </a>
     </li>
   );
