@@ -1,4 +1,4 @@
-import { AboutSkillsBeingLearnedItem } from "./AboutSkillsBeingLearnedItem";
+import { AboutSkillsBeingLearnedItem } from "./components/AboutSkillsBeingLearnedItem";
 
 type Skill = {
   skill: string;
