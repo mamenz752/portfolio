@@ -45,7 +45,7 @@ export const AboutSkillsBeingLearnedItem: FC<Props> = ({
         </svg>
       </button>
       <div
-        className={`h-48 p-4 ${isHidden ? "" : "hidden"} text-mamenz-blue tracking-widest border-2 border-mamenz-blue`}
+        className={`min-h-48 p-4 ${isHidden ? "" : "hidden"} text-mamenz-blue tracking-widest border-2 border-mamenz-blue`}
       >
         <p>{description}</p>
       </div>

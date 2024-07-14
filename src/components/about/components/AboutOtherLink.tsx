@@ -19,6 +19,10 @@ export const AboutOtherLink = () => {
       url: "https://zenn.dev/mamenz752",
       title: "Zenn",
     },
+    {
+      url: "https://sizu.me/mamenz752",
+      title: "sizu.me",
+    },
   ];
 
   return (
