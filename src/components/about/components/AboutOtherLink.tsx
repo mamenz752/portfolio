@@ -26,7 +26,7 @@ export const AboutOtherLink = () => {
   ];
 
   return (
-    <ul className="my-6 w-full flex gap-4">
+    <ul className="my-6 w-full flex gap-4 max-md:flex-col">
       {SNSLink.map((item, key) => {
         return (
           <AboutOtherLinkItem key={key} href={item.url} type={item.title} />

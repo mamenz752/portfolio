@@ -4,14 +4,14 @@ import { AboutOtherLink } from "./components/AboutOtherLink";
 const AboutBasicInfo = () => {
   return (
     <div className="mx-auto">
-      <div className="flex justify-center my-8">
+      <div className="flex justify-center my-8 max-md:my-2">
         <img src="profile.png" alt="mamenz752のイメージ画像" />
       </div>
       <div className="my-4">
-        <h1 className="mb-1 text-4xl font-zen-kaku font-black tracking-widest text-mamenz-blue">
+        <h1 className="mb-1 text-4xl max-md:text-[2rem] font-zen-kaku font-black tracking-widest text-mamenz-blue">
           サヤ
         </h1>
-        <p className="text-2xl font-m-plus font-medium py-2 tracking-widest text-mamenz-blue">
+        <p className="text-2xl max-md:text-[1.2rem] font-m-plus font-medium py-2 tracking-widest text-mamenz-blue">
           WEB DEVELOPER / STUDENT
         </p>
       </div>

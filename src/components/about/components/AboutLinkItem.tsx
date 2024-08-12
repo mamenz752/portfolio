@@ -8,7 +8,7 @@ type Props = {
 
 export const AboutLinkItem: FC<Props> = ({ href, type }) => {
   return (
-    <li className="w-16 h-16 bg-[#555779]">
+    <li className="w-16 h-16 max-md:w-12 max-md:h-12 bg-[#555779]">
       <a
         className="w-full h-full flex items-center justify-center"
         href={href}
