@@ -8,7 +8,7 @@ type Link = {
 export const AboutOtherLink = () => {
   const SNSLink: Link[] = [
     {
-      url: "/",
+      url: "https://sy-mame-blog.vercel.app/",
       title: "Blog",
     },
     {
