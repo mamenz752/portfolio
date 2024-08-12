@@ -14,7 +14,7 @@ export const Headings: FC<Props> = ({ en, ja, size, color }) => {
     if (size === "S") {
       return "text-2xl";
     } else {
-      return "text-[2rem]";
+      return "text-[2rem] max-md:text-[1.5rem]";
     }
   };
 
@@ -22,7 +22,7 @@ export const Headings: FC<Props> = ({ en, ja, size, color }) => {
     if (size === "S") {
       return "text-base";
     } else {
-      return "text-xl";
+      return "text-xl max-md:text-[1.2rem]";
     }
   };
 
@@ -40,14 +40,14 @@ export const Headings: FC<Props> = ({ en, ja, size, color }) => {
   };
 
   return (
-    <div className="mt-2 mb-8 flex items-center gap-10 text-mamenz-blue">
+    <div className="mt-2 mb-8 max-md:mb-4 flex items-center gap-10 max-md:gap-6 max-sm:gap-4 text-mamenz-blue">
       <h1
-        className={`${handleEnSize(size)} font-m-plus font-bold tracking-widest ${handleColor(color)}`}
+        className={`${handleEnSize(size)} font-m-plus font-bold tracking-widest max-md:tracking-wider max-sm:tracking-wide ${handleColor(color)}`}
       >
         {en}
       </h1>
       <p
-        className={`${handleJaSize(size)} font-zen-kaku font-bold tracking-widest ${handleColor(color)}`}
+        className={`${handleJaSize(size)} font-zen-kaku font-bold tracking-widest max-md:tracking-wider max-sm:tracking-wide ${handleColor(color)}`}
       >
         {ja}
       </p>
