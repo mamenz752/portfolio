@@ -35,7 +35,7 @@ export const AboutSkillsBeingLearned = () => {
   ];
 
   return (
-    <ul className="w-full grid grid-cols-2 gap-4">
+    <ul className="w-full grid grid-cols-2 max-lg:grid-cols-1 gap-4">
       {allSkills.map((item, index) => (
         <AboutSkillsBeingLearnedItem
           key={index}
