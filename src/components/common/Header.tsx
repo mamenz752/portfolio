@@ -5,7 +5,7 @@ import { HeaderLogo } from "./components/HeaderLogo";
 import { useState } from "react";
 
 export const Header = () => {
-  const isTablet = useMedia({ maxWidth: "768px" });
+  const isTablet = useMedia({ maxWidth: "1024px" });
   const [isHamburgerOpen, setIsHamburgerOpen] = useState<boolean>(false);
 
   return (
