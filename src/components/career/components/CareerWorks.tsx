@@ -32,8 +32,8 @@ const CareerWorks = () => {
             <div className="border-2 border-mamenz-blue">
               <img src="/Rhythmate.png" />
             </div>
-            <div className="my-4 flex justify-between items-center">
-              <h1 className="text-4xl text-mamenz-blue font-m-plus font-bold tracking-wider">
+            <div className="my-4 flex justify-between items-center max-md:flex-col max-md:justify-center max-md:items-start max-md:gap-2">
+              <h1 className="text-4xl max-lg:text-3xl text-mamenz-blue font-m-plus font-bold tracking-wider">
                 Rhythmate
               </h1>
               <Link
@@ -41,7 +41,7 @@ const CareerWorks = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <button className="p-2 flex text-white bg-mamenz-pink gap-2 hover:opacity-90">
+                <button className="p-2 flex items-center text-white bg-mamenz-pink gap-2 hover:opacity-90">
                   <svg
                     className="w-6 h-6 text-white"
                     aria-hidden="true"
@@ -59,7 +59,7 @@ const CareerWorks = () => {
                       d="M13.213 9.787a3.391 3.391 0 0 0-4.795 0l-3.425 3.426a3.39 3.39 0 0 0 4.795 4.794l.321-.304m-.321-4.49a3.39 3.39 0 0 0 4.795 0l3.424-3.426a3.39 3.39 0 0 0-4.794-4.795l-1.028.961"
                     />
                   </svg>
-                  <span className="tracking-widest font-semi-bold">
+                  <span className="tracking-widest font-semi-bold max-lg:text-sm">
                     作品を見る
                   </span>
                 </button>
@@ -73,10 +73,10 @@ const CareerWorks = () => {
               AIによるレビューを受け取ることもできます。
             </p>
             <ul className="mt-4 flex justify-end gap-4">
-              <li className="px-4 py-2 bg-mamenz-blue text-white font-m-plus tracking-widest">
+              <li className="px-4 py-2 bg-mamenz-blue text-white font-m-plus tracking-widest max-lg:text-sm">
                 TypeScript
               </li>
-              <li className="px-4 py-2 bg-mamenz-blue text-white font-m-plus tracking-widest">
+              <li className="px-4 py-2 bg-mamenz-blue text-white font-m-plus tracking-widest max-lg:text-sm">
                 React
               </li>
             </ul>
