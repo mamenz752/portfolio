@@ -7,7 +7,7 @@ export const ContactPresenter = () => {
       <p className="font-zen-kaku text-mamenz-blue">
         現在は受け付けておりません
       </p>
-      <div className="m-auto flex justify-center items-center text-mamenz-blue font-lexend font-extrabold tracking-widest text-6xl max-sm:mt-4 max-sm:font-bold max-sm:tracking-wide max-sm:text-4xl">
+      <div className="m-auto flex justify-center items-center text-mamenz-blue font-lexend font-extrabold tracking-widest text-6xl max-sm:font-bold max-sm:tracking-wide max-sm:text-4xl">
         <p>m(_ _)m</p>
       </div>
     </div>
