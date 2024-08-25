@@ -10,27 +10,31 @@ export const AboutSkillsBeingLearned = () => {
     {
       skill: "UI/UX Design",
       description:
-        "Webデザインに興味があり、勉強を続けています。Miroなどを用いてブレインストーミングを行った後、Figmaでデザインカンプを作成し、なるだけ制作物のイメージを細かく膨らませるように意識しています。",
+        "なるだけ制作物のイメージを細かく膨らませるように意識しています。ブレインストーミングを行うなどしてアイデアをコンセプトにまとめた後、Figmaを用いてデザイン案を作成します。",
     },
     {
-      skill: "HTML/CSS",
+      skill: "System Design",
       description:
-        "セマンティックなコードを書くように意識しています。現在は、メディアクエリを用いたレスポンシブデザインやCSSアニメーションについての理解を深めています。Reactなどと併用する際はTailwind CSSを利用しています。",
+        "フルスタックに開発できるようなスキル獲得を目指しているため、アーキテクチャについての理解を深めています。現在はJamstackやT3 Stackについて個人開発を進めながら勉強中です。",
     },
     {
-      skill: "JavaScript/TypeScript",
-      description:
-        "フロントエンドにおいて、React + TypeScriptを用いたプロダクト開発経験があります。個人開発では、TypeScriptを積極的に採用しています。Next.jsを用いたJamstackのプロダクトを開発したいと考えています。また、バックエンドにおけるTypeScriptを用いた型安全な開発に興味があり、T3 Stackについて勉強中です。",
+      skill: "HTML5",
+      description: "セマンティックなコードを書くように意識しています。",
     },
     {
-      skill: "PHP",
+      skill: "CSS3",
       description:
-        "Laravelを用いたプロダクトを個人開発した経験があります。Inertia.jsを用いてReactと連携させて開発しました。",
+        "最近は、CSSアニメーションについて興味があります。Reactなどと併用する際は、Tailwind CSSを利用することが多いです。",
     },
     {
-      skill: "Python",
+      skill: "JavaScript",
       description:
-        "主にDS/ML分野の学習で使用し、Pythonによるデータ分析技術を学んでいます。Web開発分野においては、Djangoを使ったプロダクトの開発にも興味があります。",
+        "Node.jsを用いて開発を行っています。Reactを用いたフロントエンド開発が得意です。最近は、バックエンド領域についても勉強しています。",
+    },
+    {
+      skill: "TypeScript",
+      description:
+        "個人開発では、TypeScriptを積極的に採用しています。フロントエンドにおいて、React + TypeScriptを用いたプロダクト開発経験があります。",
     },
   ];
 
