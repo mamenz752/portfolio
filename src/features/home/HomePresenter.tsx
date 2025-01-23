@@ -1,6 +1,6 @@
-import HomeEmoji from "./HomeEmoji";
-import HomeWelcomeEn from "./HomeWelcomeEn";
-import HomeWelcomeJp from "./HomeWelcomeJp";
+import HomeEmoji from "./components/HomeEmoji";
+import HomeWelcomeEn from "./components/HomeWelcomeEn";
+import HomeWelcomeJp from "./components/HomeWelcomeJp";
 
 /* eslint-disable react/no-unescaped-entities */
 export const HomePresenter = () => {
