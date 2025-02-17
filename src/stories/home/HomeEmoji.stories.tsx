@@ -1,4 +1,4 @@
-import HomeEmoji from "@/features/home/components/HomeEmoji";
+import { HomeEmoji } from "@/features/home/components/HomeEmoji";
 import { Meta } from "@storybook/react";
 
 const meta: Meta<typeof HomeEmoji> = {
