@@ -5,7 +5,7 @@ type Props = {
   type: string;
 };
 
-export const AboutOtherLinkItem: FC<Props> = ({ href, type }) => {
+export const AboutMediaLinkItem: FC<Props> = ({ href, type }) => {
   return (
     <li className="w-1/3 max-md:w-full bg-[#555779] text-white text-lg max-lg:text-md font-m-plus font-medium tracking-widest">
       <a

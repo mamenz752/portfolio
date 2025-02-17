@@ -1,7 +1,7 @@
-import { AboutLink } from "./components/AboutLink";
-import { AboutOtherLink } from "./components/AboutOtherLink";
+import { AboutSnsLink } from "@/features/about/components/AboutSnsLink";
+import { AboutMediaLink } from "@/features/about/components/AboutMediaLink";
 
-const AboutBasicInfo = () => {
+export const AboutMe = () => {
   return (
     <div className="mx-auto">
       <div className="flex justify-center my-8 max-md:my-2">
@@ -15,8 +15,8 @@ const AboutBasicInfo = () => {
           WEB DEVELOPER / STUDENT
         </p>
       </div>
-      <AboutLink />
-      <AboutOtherLink />
+      <AboutSnsLink />
+      <AboutMediaLink />
       <div className="my-8 text-sm font-noto-sans tracking-widest leading-6 text-mamenz-blue">
         <div>
           <p>DS/ML専攻の大学3年生です。</p>
@@ -32,5 +32,3 @@ const AboutBasicInfo = () => {
     </div>
   );
 };
-
-export default AboutBasicInfo;

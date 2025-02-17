@@ -5,10 +5,7 @@ type Props = {
   description: string;
 };
 
-export const AboutSkillsBeingLearnedItem: FC<Props> = ({
-  skill,
-  description,
-}) => {
+export const AboutMySkillItem: FC<Props> = ({ skill, description }) => {
   const [isHidden, setIsHidden] = useState<boolean>(false);
 
   const handleIsHidden = () => {

@@ -6,7 +6,7 @@ type Props = {
   type: string;
 };
 
-export const AboutLinkItem: FC<Props> = ({ href, type }) => {
+export const AboutSnsLinkItem: FC<Props> = ({ href, type }) => {
   return (
     <li className="w-16 h-16 max-md:w-12 max-md:h-12 bg-[#555779]">
       <a
