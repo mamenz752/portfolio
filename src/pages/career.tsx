@@ -1,10 +1,10 @@
-import { CareerLicense } from "./components/CareerLicense";
-import CareerExperience from "./components/CareerExperience";
-import CareerWorks from "./components/CareerWorks";
+import { CareerLicense } from "@/components/career/components/CareerLicense";
+import CareerExperience from "@/components/career/components/CareerExperience";
+import CareerWorks from "@/components/career/components/CareerWorks";
 import { Headings } from "@/components/common/components/Headings";
-import CareerSquare from "./components/CareerSquare";
+import CareerSquare from "@/components/career/components/CareerSquare";
 
-export const CareerPresenter = () => {
+const Career = () => {
   return (
     <div className="w-1/2 max-lg:w-2/3 max-md:w-3/4 mx-auto my-10 flex justify-center items-start flex-col">
       <Headings en="CAREER" ja="私の経歴" size="N" color="blue" />
@@ -17,3 +17,5 @@ export const CareerPresenter = () => {
     </div>
   );
 };
+
+export default Career;
