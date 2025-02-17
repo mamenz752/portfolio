@@ -1,8 +1,9 @@
-import { CareerLicense } from "@/components/career/components/CareerLicense";
-import CareerExperience from "@/components/career/components/CareerExperience";
-import CareerWorks from "@/components/career/components/CareerWorks";
+import { CareerLicense } from "@/features/career/components/CareerLicense";
+import CareerExperience from "@/features/career/components/CareerExperience";
+import CareerWorks from "@/features/career/components/CareerWorks";
 import { Headings } from "@/components/common/components/Headings";
-import CareerSquare from "@/components/career/components/CareerSquare";
+import CareerSquare from "@/features/career/components/CareerSquare";
+// import { CareerLayout } from "@/features/career/layout/layout";
 
 const Career = () => {
   return (
@@ -14,6 +15,9 @@ const Career = () => {
       <CareerExperience />
       <CareerSquare />
       <CareerWorks />
+      {/* <CareerLayout>
+        <CareerWorks />
+      </CareerLayout> */}
     </div>
   );
 };
