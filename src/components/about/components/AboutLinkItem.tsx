@@ -1,4 +1,4 @@
-import { ContactIcon } from "@/components/common/components/ContactIcon";
+import { ContactIcon } from "@/assets/icons/ContactIcon";
 import { FC } from "react";
 
 type Props = {
