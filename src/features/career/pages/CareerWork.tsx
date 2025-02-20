@@ -1,7 +1,7 @@
 import { Headings } from "@/components/common/components/Headings";
 import { CareerWorkList } from "../components/CareerWorkList";
 
-const CareerWorks = () => {
+export const CareerWork = () => {
   return (
     <div>
       <div className="py-4">
@@ -11,5 +11,3 @@ const CareerWorks = () => {
     </div>
   );
 };
-
-export default CareerWorks;

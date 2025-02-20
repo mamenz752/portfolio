@@ -1,6 +1,6 @@
 import { CareerLicense } from "@/features/career/pages/CareerLicense";
-import CareerExperience from "@/features/career/pages/CareerExperience";
-import CareerWorks from "@/features/career/pages/CareerWorks";
+import { CareerExperience } from "@/features/career/pages/CareerExperience";
+import { CareerWork } from "@/features/career/pages/CareerWork";
 import { Headings } from "@/components/common/components/Headings";
 import { CareerLayout } from "@/features/career/layout/layout";
 
@@ -15,7 +15,7 @@ const Career = () => {
         <CareerExperience />
       </CareerLayout>
       <CareerLayout>
-        <CareerWorks />
+        <CareerWork />
       </CareerLayout>
     </div>
   );
