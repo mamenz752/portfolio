@@ -1,4 +1,4 @@
-import HomeWelcomeJp from "@/components/home/HomeWelcomeJp";
+import { HomeWelcomeJp } from "@/features/home/components/HomeWelcomeJp";
 import { Meta } from "@storybook/react";
 
 const meta: Meta<typeof HomeWelcomeJp> = {
