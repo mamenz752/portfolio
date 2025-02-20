@@ -1,5 +1,5 @@
 import { CareerLicense } from "@/features/career/pages/CareerLicense";
-import CareerExperience from "@/features/career/components/CareerExperience";
+import CareerExperience from "@/features/career/pages/CareerExperience";
 import CareerWorks from "@/features/career/pages/CareerWorks";
 import { Headings } from "@/components/common/components/Headings";
 import { CareerLayout } from "@/features/career/layout/layout";
