@@ -1,4 +1,4 @@
-import { CareerLicense } from "@/features/career/components/CareerLicense";
+import { CareerLicense } from "@/features/career/pages/CareerLicense";
 import CareerExperience from "@/features/career/components/CareerExperience";
 import CareerWorks from "@/features/career/pages/CareerWorks";
 import { Headings } from "@/components/common/components/Headings";
