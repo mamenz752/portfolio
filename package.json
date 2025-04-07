@@ -14,7 +14,9 @@
     "coverage": "vitest run --coverage",
     "prepare": "husky",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -47,6 +49,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
     "eslint-plugin-storybook": "^0.8.0",
+    "gh-pages": "^6.3.0",
     "happy-dom": "^13.8.6",
     "husky": "^9.0.11",
     "lint-staged": "^15.2.2",
