@@ -19,13 +19,14 @@ export const AboutMe = () => {
       <AboutMediaLink />
       <div className="my-8 text-sm font-noto-sans tracking-widest leading-6 text-mamenz-blue">
         <div>
-          <p>DS/ML専攻の大学3年生です。</p>
+          <p>CS専攻の大学4年生です。</p>
           <p>Web開発に興味があり、日々勉強しています。</p>
         </div>
         <div className="mt-4">
           <p>得意分野は、企画・UIデザインを含むフロントエンド開発です。</p>
+          <p>最近は、バックエンドやインフラについても学んでいます。</p>
           <p>
-            今は自分の向いている分野を探りつつ、フルスタックに開発できるように勉強を進めています。
+            今は自分の向いている分野を探りつつ、フルスタックに個人開発しています。
           </p>
         </div>
       </div>
