@@ -1,4 +1,7 @@
 import { FC } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons/faBars";
+import { faXmark } from "@fortawesome/free-solid-svg-icons/faXmark";
 
 type Props = {
   isOpenMenu: boolean;
@@ -16,11 +19,17 @@ const HamburgerIcon: FC<Props> = ({ isOpenMenu, isOpenFunc }) => {
 
   return isOpenMenu ? (
     <button onClick={handleNavClose}>
-      <i className="fa-solid fa-xmark text-white text-4xl max-sm:text-2xl"></i>
+      <FontAwesomeIcon
+        icon={faXmark}
+        className="text-white text-4xl max-sm:text-2xl"
+      />
     </button>
   ) : (
     <button onClick={handleNavOpen}>
-      <i className="fa-solid fa-bars text-white text-4xl max-sm:text-2xl"></i>
+      <FontAwesomeIcon
+        icon={faBars}
+        className="text-white text-4xl max-sm:text-2xl"
+      />
     </button>
   );
 };

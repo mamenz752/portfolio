@@ -4,15 +4,15 @@ import { MLink } from "../types/types";
 export const snsLinks: SLink[] = [
   {
     url: "https://github.com/mamenz752",
-    image: "fa-github",
+    image: "github",
   },
   {
     url: "https://instagram.com/mamenz752",
-    image: "fa-instagram",
+    image: "instagram",
   },
   {
     url: "https://x.com/mamenz752",
-    image: "fa-x-twitter",
+    image: "x-twitter",
   },
 ];
 
