@@ -8,6 +8,8 @@ export const Header = () => {
   const isTablet = useMedia({ maxWidth: "1024px" });
   const [isHamburgerOpen, setIsHamburgerOpen] = useState<boolean>(false);
 
+  const closeMenu = () => setIsHamburgerOpen(false);
+
   return (
     <header className="px-4 bg-mamenz-blue">
       <div className="flex items-center justify-around max-md:justify-between">
@@ -18,10 +20,10 @@ export const Header = () => {
             isOpenFunc={setIsHamburgerOpen}
           />
         ) : (
-          <HeaderLink />
+          <HeaderLink closeMenu={closeMenu} />
         )}
       </div>
-      {isHamburgerOpen ? <HeaderLink /> : <></>}
+      {isHamburgerOpen && isTablet && <HeaderLink closeMenu={closeMenu} />}
     </header>
   );
 };
