@@ -5,7 +5,7 @@ export const CareerWorkListItem = (props: Work) => {
   const { title, description, image, link, stack } = props;
 
   return (
-    <li>
+    <li className="w-[180px] md:w-full">
       <div className="border-2 border-mamenz-blue">
         <img src={image} />
       </div>
@@ -18,7 +18,7 @@ export const CareerWorkListItem = (props: Work) => {
       <p className="font-noto-sans tracking-widest text-mamenz-blue">
         {description}
       </p>
-      <ul className="mt-4 flex justify-end gap-4">
+      <ul className="mt-4 flex justify-end flex-wrap gap-4">
         {stack.map((item, index) => (
           <li
             key={index}
